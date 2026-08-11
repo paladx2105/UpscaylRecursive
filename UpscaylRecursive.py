@@ -1,7 +1,6 @@
 import os
 
-os.environ["QT_LOGGING_RULES"] = "qt.qpa.*=false"
-os.environ["QT_QPA_PLATFORM"] = "offscreen"
+#os.environ["QT_QPA_PLATFORM"] = "minimal"
 
 # Hier folgen danach deine restlichen Imports...
 from bin.interface import Ui_MainWindow

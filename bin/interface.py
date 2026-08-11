@@ -1,7 +1,7 @@
 # -*- coding: utf-8 -*-
 
 ################################################################################
-## Form generated from reading UI file 'designerbywWIV.ui'
+## Form generated from reading UI file 'designerCBNsOl.ui'
 ##
 ## Created by: Qt User Interface Compiler version 6.11.1
 ##
@@ -100,10 +100,10 @@ class Ui_MainWindow(object):
 
         self.gridLayout.addWidget(self.toolButton_outputPath, 3, 9, 1, 1)
 
-        self.lineEdit_outputPath = QLineEdit(self.widget_5)
-        self.lineEdit_outputPath.setObjectName(u"lineEdit_outputPath")
+        self.lineEdi_outputPath = QLineEdit(self.widget_5)
+        self.lineEdi_outputPath.setObjectName(u"lineEdi_outputPath")
 
-        self.gridLayout.addWidget(self.lineEdit_outputPath, 3, 8, 1, 1)
+        self.gridLayout.addWidget(self.lineEdi_outputPath, 3, 8, 1, 1)
 
         self.label_5 = QLabel(self.widget_5)
         self.label_5.setObjectName(u"label_5")
@@ -236,10 +236,9 @@ class Ui_MainWindow(object):
         self.formLayout_2.setWidget(1, QFormLayout.ItemRole.LabelRole, self.label_9)
 
         self.comboBox_format = QComboBox(self.widget_10)
-        self.comboBox_format.addItem("PNG")
-        self.comboBox_format.addItem("JPG")
-        self.comboBox_format.setItemText("JPEG")
-        self.comboBox_format.addItem("WEBP")
+        self.comboBox_format.addItem("")
+        self.comboBox_format.addItem("")
+        self.comboBox_format.addItem("")
         self.comboBox_format.setObjectName(u"comboBox_format")
         self.comboBox_format.setMaxCount(3)
 
@@ -396,7 +395,7 @@ class Ui_MainWindow(object):
         self.toolButton_modelPath.setText(QCoreApplication.translate("MainWindow", u"...", None))
         self.toolButton_outputPath.setText(QCoreApplication.translate("MainWindow", u"...", None))
 #if QT_CONFIG(tooltip)
-        self.lineEdit_outputPath.setToolTip(QCoreApplication.translate("MainWindow", u"<html><head/><body><p>The path where the output should go</p></body></html>", None))
+        self.lineEdi_outputPath.setToolTip(QCoreApplication.translate("MainWindow", u"<html><head/><body><p>The path where the output should go</p></body></html>", None))
 #endif // QT_CONFIG(tooltip)
         self.label_5.setText(QCoreApplication.translate("MainWindow", u"Input Path", None))
         self.label_2.setText(QCoreApplication.translate("MainWindow", u"Upscayl Path", None))
@@ -411,8 +410,8 @@ class Ui_MainWindow(object):
         self.label_8.setText(QCoreApplication.translate("MainWindow", u"Height", None))
         self.label_9.setText(QCoreApplication.translate("MainWindow", u"Format", None))
         self.comboBox_format.setItemText(0, QCoreApplication.translate("MainWindow", u"PNG", None))
-        self.comboBox_format.setItemText(1, QCoreApplication.translate("MainWindow", u"JPG", None))
-        self.comboBox_format.setItemText(2, QCoreApplication.translate("MainWindow", u"Webp", None))
+        self.comboBox_format.setItemText(1, QCoreApplication.translate("MainWindow", u"JPEG", None))
+        self.comboBox_format.setItemText(2, QCoreApplication.translate("MainWindow", u"WEBP", None))
 
         self.checkBox_tta.setText(QCoreApplication.translate("MainWindow", u"TTA", None))
         self.label_10.setText(QCoreApplication.translate("MainWindow", u"GPU", None))

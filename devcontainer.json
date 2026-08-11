@@ -4,7 +4,7 @@
   "features": {
     "ghcr.io/devcontainers/features/desktop-lite:1": {}
   },
-  "postCreateCommand": "sudo apt-get update && sudo apt-get install -y libgl1 libglib2.0-0 libegl1 libxcb-cursor0 && pip install -r requirements.txt",
+  "postCreateCommand": "sudo apt-get update && sudo apt-get install -y libgl1 libglib2.0-0 libegl1 libxcb-cursor0 libxkbcommon-x11-0 && pip install -r requirements.txt",
   "containerEnv": {
     "QT_QPA_PLATFORM": "offscreen"
   }

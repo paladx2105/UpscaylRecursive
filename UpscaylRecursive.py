@@ -1,4 +1,6 @@
 import os
+
+os.environ["QT_LOGGING_RULES"] = "qt.qpa.*=false"
 os.environ["QT_QPA_PLATFORM"] = "offscreen"
 
 # Hier folgen danach deine restlichen Imports...
